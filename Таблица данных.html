@@ -1,0 +1,53 @@
+<html>
+	<head>
+	<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=peMxhNkFhkRA3xKmFkOZyZ3Y7Qqml8Xal-W7TqW8Bipf2LhFEgFPpNFKkA0XkKTVBuvo4gI3HS4zjUzkwZDkdn8t6qMirjGY8xirE3baeuTJYaiuB5FPMSL9v3H1o9Fv7j81BcJhXTDBvQHYmfSmyykNm8qT2CDnLYqCumCmA2Jab9vZYypZGiRe4_SmGSgwalBBePH27s8eY3diFN_CZw" charset="UTF-8"></script></head>
+	<body>
+		<table id="tab" border= "1 px solid" cellpadding="5px">
+			<tr>
+				<td> 1:1 </td>
+				<td> 2:1 </td>
+				<td> 3:1 </td>
+				<td> 4:1 </td>
+				<td> 5:1 </td>
+			</tr>
+			<tr>
+				<td> 1:2 </td>
+				<td> 2:2 </td>
+				<td> 3:2 </td>
+				<td> 4:2 </td>
+				<td> 5:2 </td>
+			</tr>
+			<tr>
+				<td> 1:3 </td>
+				<td> 2:3 </td>
+				<td> 3:3 </td>
+				<td> 4:3 </td>
+				<td> 5:3 </td>
+			</tr>
+			<tr>
+				<td> 1:4 </td>
+				<td> 2:4 </td>
+				<td> 3:4 </td>
+				<td> 4:4 </td>
+				<td> 5:4 </td>
+			</tr>
+			<tr>
+				<td> 1:5 </td>
+				<td> 2:5 </td>
+				<td> 3:5 </td>
+				<td> 4:5 </td>
+				<td> 5:5 </td>
+			</tr>
+		</table>
+		<script>
+			var table = document.getElementById("tab");
+			for (var i = 0, row; row = table.rows[i]; i++) {
+			   for (var j = 0, col; col = row.cells[j]; j++) {
+					if (i == j) {
+						col.style.backgroundColor = 'red';
+					}
+			   }
+			}
+		</script>
+	</body>
+</html>
